@@ -50,7 +50,7 @@ namespace ExtraFormatter
                 NewClauseLineBreaks = 1,
                 TrailingCommas = false,
                 SpaceAfterExpandedComma = true,
-                ExpandBetweenConditions = true,
+                ExpandBetweenConditions = false,
                 ExpandBooleanExpressions = true,
                 ExpandCaseStatements = true,
                 ExpandCommaLists = true,

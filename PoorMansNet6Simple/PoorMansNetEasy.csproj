@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PoorMansNet6\PoorMansNet6.csproj" />
+    <ProjectReference Include="..\PoorMansNet6\PoorMansNet.csproj" />
   </ItemGroup>
 
 </Project>

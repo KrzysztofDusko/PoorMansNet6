@@ -308,6 +308,7 @@ namespace PoorMansTSqlFormatterLib.Formatters
                     ProcessSqlNodeList(contentElement.ChildrenByName(SqlStructureConstants.ENAME_CONTAINER_OPEN), state);
                     state.IncrementIndent();
                     ProcessSqlNodeList(contentElement.ChildrenByName(SqlStructureConstants.ENAME_BETWEEN_LOWERBOUND), state.IncrementIndent());
+                    state.BreakExpected = false;
                     if (Options.ExpandBetweenConditions)
                         state.BreakExpected = true;
                     ProcessSqlNodeList(contentElement.ChildrenByName(SqlStructureConstants.ENAME_CONTAINER_CLOSE), state.DecrementIndent());

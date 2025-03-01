@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PublishAot>true</PublishAot>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <UseSystemResourceKeys>true</UseSystemResourceKeys>
+	  <InvariantGlobalization>true</InvariantGlobalization>
+	  <OptimizationPreference>Size</OptimizationPreference>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="PublishAotCompressed" Version="1.0.3" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\PoorMansNet6Simple\PoorMansNetEasy.csproj" />
+	</ItemGroup>
+
+</Project>
